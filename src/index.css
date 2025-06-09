@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  scrollbar-width: none;
+}
+body {
+  overflow-x: hidden;
+}
+.navbar {
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);
+}
